@@ -44,7 +44,7 @@ Checkout your target branch - if you are just starting, this is "master"
 
 Now create your local branch and push it to the remote (github.com)
     ```
-    git branch -b myWorkingBranchName
+    git checkout -b myWorkingBranchName
     git push -u origin myWorkingBranchName
     ```
 
