@@ -29,7 +29,7 @@ Location in zipcode, time interval and weather APIs
 
 ###Outputs
 
-temperature in degrees "(C or F?)"
+temperature in degrees (C or F?)
 
 ###User Interaction
 
