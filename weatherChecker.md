@@ -31,6 +31,7 @@ Main - Weather1: Temp
 Main - Weather2: Temp
 Main - Weather3: Temp}
 @enduml;
+)
 
 ##System Architecture
 
