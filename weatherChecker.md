@@ -8,10 +8,10 @@ Get the current temperature from 3 different weather sites every 5 minutes and w
 
 ###Scope
 
-*Creating a Java application that is multi-threaded and shares a resource
-*A Java app that writes to a file
-*A Java app that Accesses a web services API
-*Getting more comfortable with git
+* Creating a Java application that is multi-threaded and shares a resource
+* A Java app that writes to a file
+* A Java app that Accesses a web services API
+* Getting more comfortable with git
 
 ###Class Diagram
 ![image of class diagram]
