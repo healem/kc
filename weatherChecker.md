@@ -16,6 +16,7 @@ Get the current temperature from 3 different weather sites every 5 minutes and w
 ###Class Diagram
 
 <img src='http://g.gravizo.com/g?
+@startuml;
 
 Package "Java App"{
 Main - timeInterval : <output;
@@ -31,6 +32,7 @@ Main - Weather1: Temp;
 Main - Weather2: Temp;
 Main - Weather3: Temp;
 }
+@enduml;
 '>
 
 ###Sequence Diagram
