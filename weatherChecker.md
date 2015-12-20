@@ -14,8 +14,26 @@ Get the current temperature from 3 different weather sites every 5 minutes and w
 * Getting more comfortable with git
 
 ###Class Diagram
-![image of class diagram]
-(http://www.plantuml.com:80/plantuml/png/RK_D2i8m3BxtASBkWZ_ef7WPEqqGTn0yXnaqkBLbIuSeUtSBMjJXBVb-anAhAvu9aYts29bpoKFja0rCGBYXmWYrFTQWOMEzE2-HhMs5mjQC6VtZYrXKgr4e6u66ZHVgmhPKNwbtThazKPYcgtITgY4s7-WceD-TBjw_zz9na6TbyNdXI2WNQcSwc1etGkT_qSKB7Pu0)
+
+<img src='http://g.gravizo.com/g?
+@startuml;
+
+Package "Java App"{;
+Main - timeInterval : <output;
+Main - location : <output;
+Main : timeInterval;
+Main : location;
+timeInterval : int minutes : 5;
+location : zipCode : 06787;
+};
+Main - Text :output;
+package "Outside API"{;
+Main - Weather1: Temp;
+Main - Weather2: Temp;
+Main - Weather3: Temp};
+
+@enduml
+'>
 
 ###Sequence Diagram
 ![image of sequence diagram]
