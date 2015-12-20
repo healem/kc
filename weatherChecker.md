@@ -38,7 +38,7 @@ Main - Weather3: Temp;
 ###Sequence Diagram
 
 ![Alt text](http://g.gravizo.com/g?
-
+@startuml;
 Actor user;
 participant "Location" as A;
 participant "Weather1" as B;
@@ -64,6 +64,7 @@ deactivate A;
 activate E;
 E -> user;
 deactivate E;
+@enduml
 )
 
 
