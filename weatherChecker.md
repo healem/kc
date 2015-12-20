@@ -37,8 +37,7 @@ Main - Weather3: Temp;
 
 ###Sequence Diagram
 
-<img src='http://g.gravizo.com/g?
-@startuml;
+![Alt text](http://g.gravizo.com/g?
 
 Actor user;
 participant "Location" as A;
@@ -65,8 +64,7 @@ deactivate A;
 activate E;
 E -> user;
 deactivate E;
-@enduml;
-'>
+)
 
 
 ###functions
