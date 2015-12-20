@@ -30,7 +30,8 @@ Main - Text :output;
 package "Outside API"{
 Main - Weather1: Temp;
 Main - Weather2: Temp;
-Main - Weather3: Temp}
+Main - Weather3: Temp;
+}
 
 @enduml
 '>
